@@ -1,0 +1,164 @@
+@import "normalize.css";
+@import "bootstrap.min.css";
+
+
+body{
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  color: #131316;
+  background-color: #131316;
+  background-image: url("../img/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+img{
+  max-width: 100%;
+}
+input,
+button,
+button:focus{
+  outline: none;
+  box-shadow: none !important;
+}
+a:hover{
+  text-decoration: none;
+}
+section{
+  margin-bottom: 50px;
+}
+.header{
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.link-regular{
+  padding: 11px 8px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+  border-radius: 4px;
+}
+.regular-title{
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.item-box{
+  padding: 30px 10px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+}
+.item-box__title{
+  margin: 25px 0 15px;
+  font-size: 16px;
+}
+.item-box__old-price{
+  text-decoration-line: line-through;
+  color: #D9D9D9;
+}
+.item-box__new-price{
+  font-weight: 700;
+  font-size: 24px;
+}
+.item-box__img{
+  height: 100px;
+  overflow: hidden;
+}
+.item-box--big .item-box__img{
+  height: 170px;
+}
+.product-box{
+  padding: 30px;
+  font-size: 13px;
+  text-align: left;
+}
+.icon-ship{
+  margin-right: 8px;
+}
+.icon-ship--transparent{
+  opacity: .5;
+}
+.product-box .item-box__old-price,
+.product-box .item-box__new-price{
+  font-size: 16px;
+}
+.product-box .text-red{
+  color: #FF0000;
+}
+.item-box__sale{
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #FF0000;
+  border-radius: 4px;
+  padding: 0px 13px;
+}
+.link-product{
+  padding: 18px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.promocode-product{
+  padding: 17px;
+  color: #131316;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px dashed #131316;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.soclinks-box__title{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.footer span{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF; 
+}
+.text-underline a{
+  text-decoration: underline;
+}
+
+.soclinks-box a{
+  margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
